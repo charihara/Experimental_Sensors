@@ -54,6 +54,87 @@
 ##### (link to event page on particle.io)
 ##### (explain how the data is displayed as a log -- link to log page on particle.io)
 ### Source Code from particle.io
+
+#include "Particle.h"
+
+#define LENG 32
+
+char buf[LENG + 2];
+
+int data_CRC = 0x00;
+
+void setup()
+
+{
+
+ Serial1.begin(9600);
+ 
+}
+
+void loop()
+
+{
+
+ if (Serial1.available() > 0)P
+ 
+ {
+ 
+  if (Serial1.read() == 0x42)
+  
+  {
+  
+   Serial1.readBytes(buf,LENG-1);
+   
+   if(buf[0] == 0x4d)
+   
+   {
+   
+    data_CRC = 0x42;
+    
+    for ( int i = 0x00; i < LENG -3 ; i ++)
+    
+    {
+    
+     data_CRC = data_CRC + buf[i] ; 
+     
+    }         
+    
+    if ( data_CRC == (( buf[LENG - 3] << 8 ) + buf[LENG - 2]))
+    
+    {
+    
+     String data_send;
+     
+     for (unsigned char i = 0x00; i < LENG; i++)
+     
+     {
+     
+      if (buf[i] < 0x10)
+      
+      {
+      
+       data_send = data_send + '0';
+       
+      }
+      
+      data_send = data_send + String(buf[i],HEX);
+      
+     }
+     
+     Particle.publish("PMS7003", data_send, PRIVATE);
+     
+    }
+    
+   }
+   
+  }
+  
+ }
+ 
+ delay(500);
+ 
+}	
+   
 ### Particle Data Interface with Beehive dev
 ### Waggle-space ID
 ### Data Structure
