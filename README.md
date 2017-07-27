@@ -55,6 +55,7 @@
 ##### (explain how the data is displayed as a log -- link to log page on particle.io)
 ### Source Code from particle.io
 
+``` 
 #include "Particle.h"
 
 #define LENG 32
@@ -65,7 +66,9 @@ int data_CRC = 0x00;
 
 void setup()
 {
+
  Serial1.begin(9600);
+ 
 }
 
 void loop()
@@ -131,6 +134,7 @@ void loop()
  delay(500);
  
 }	
+```
    
 ### Particle Data Interface with Beehive dev
 ### Waggle-space ID
