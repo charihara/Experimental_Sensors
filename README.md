@@ -64,11 +64,8 @@ char buf[LENG + 2];
 int data_CRC = 0x00;
 
 void setup()
-
 {
-
  Serial1.begin(9600);
- 
 }
 
 void loop()
