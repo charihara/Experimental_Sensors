@@ -55,7 +55,7 @@
 ##### (explain how the data is displayed as a log -- link to log page on particle.io)
 ### Source Code from particle.io
 
-``` 
+```C 
 #include "Particle.h"
 
 #define LENG 32
