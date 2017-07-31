@@ -24,8 +24,8 @@
 *	Used to view events published by “Particle.publish” statements
 *	Go to https://console.particle.io/logs to view a log of Photon events
 *	To see the same stream of events from the terminal:
-  *	Type the following command in the terminal : curl https://api.particle.io/v1/devices/events?access_token={AccessTokenHere}
-  *	Replace {AccessTokenHere} with the access token that can be found as follows:
-    *	Go to https://build.particle.io
-    *	Go to “Settings” by clicking on the gear on the bottom of the toolbar to the left hand side of the screen
-    *	The access token will be in the grey box that pops up to the right of the toolbar 
+ *	Type the following command in the terminal : curl https://api.particle.io/v1/devices/events?access_token={AccessTokenHere}
+ *	Replace {AccessTokenHere} with the access token that can be found as follows:
+  *	Go to https://build.particle.io
+  *	Go to “Settings” by clicking on the gear on the bottom of the toolbar to the left hand side of the screen
+  *	The access token will be in the grey box that pops up to the right of the toolbar 
