@@ -45,8 +45,8 @@
     *	Data 12 is low octet --> The number of particles
     *	Data 13 high octet --> version number
     *	Data 13 low octets --> error code
-    *	Data and check high eight  Check code = start character 1 + start character 2 + ... .. + data 13 low
-    *	Data and check low eight  Eight
+    *	Data and check high eight --> Check code = start character 1 + start character 2 + ... .. + data 13 low
+    *	Data and check low eight --> Eight
 
 ## Part II. Waggle Specific
 ### Application
