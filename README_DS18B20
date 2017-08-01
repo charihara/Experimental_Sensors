@@ -1,0 +1,51 @@
+# *DS18B20 Sensor*
+## Part I. General Overview
+### What is the DS18B20?
+
+  * 1-Wire Digital Thermometer
+  * Measures Temperatues from -55°C to +125°C
+  * Must be used with a pull up resistor with a value of around 4.7 kΩ
+  * Power supply range: 3.0 V to 5.5 V
+  * 
+
+### Tutorial
+[YL-69 Tutorial](https://github.com/charihara/Experimental_Sensors/blob/master/Datasheets/YL69_Guide.pdf)
+
+[Original Source](https://randomnerdtutorials.com/guide-for-soil-moisture-sensor-yl-69-or-hl-69-with-the-arduino/)
+### Connection Images
+![image of YL-69 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/YL69_Connection.JPG)
+### Working Logic / Functionality
+#### Output
+
+  * Type: analog
+  * Output voltage decreases when the soil is wet
+  * Output voltage increases when the soil is dry
+
+## Part II. Waggle Specific
+### Application
+#### How does the sensor work with Photon and P I/O Cloud?
+##### (link to event page on particle.io)
+##### (explain how the data is displayed as a log -- link to log page on particle.io)
+### Source Code from particle.io
+
+```C 
+int rainPin = A0;
+
+void setup() {
+    
+  pinMode(rainPin, INPUT);
+
+}
+
+void loop() {
+ // read the input on analog pin 0:
+  int sensorValue = analogRead(rainPin);
+  Particle.publish("YL-69", String(sensorValue), PRIVATE);
+  delay(60000);
+
+}
+```
+   
+### Particle Data Interface with Beehive dev
+### Waggle-space ID
+### Data Structure
