@@ -17,9 +17,9 @@
 ### Working Logic / Functionality
 #### Output
 
-  * Type: analog
-  * Output voltage decreases when the soil is wet
-  * Output voltage increases when the soil is dry
+  * Thermometer resolution is user-selectable from 9 to 12 bits
+  * Converts temperatues to 12-bit digital word in 750 ms
+  * 
 
 ## Part II. Waggle Specific
 ### Application
