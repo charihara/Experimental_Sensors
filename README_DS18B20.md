@@ -3,17 +3,17 @@
 ### What is the DS18B20?
 
   * 1-Wire Digital Thermometer
-  * Measures Temperatues from -55°C to +125°C
+  * Measures Temperatures from -55°C to +125°C
   * Must be used with a pull up resistor with a value of around 4.7 kΩ
   * Power supply range: 3.0 V to 5.5 V
-  * 
+  * Requires only 1 port pin for communication
 
-### Tutorial
-[YL-69 Tutorial](https://github.com/charihara/Experimental_Sensors/blob/master/Datasheets/YL69_Guide.pdf)
+### Datasheet
+[DS18B20 Datasheet](https://github.com/charihara/Experimental_Sensors/blob/master/Datasheets/DS18B20_Data_Sheet.pdf)
 
-[Original Source](https://randomnerdtutorials.com/guide-for-soil-moisture-sensor-yl-69-or-hl-69-with-the-arduino/)
 ### Connection Images
-![image of YL-69 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/YL69_Connection.JPG)
+![image of DS18B20 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/DS18B20_Connection.JPG)
+
 ### Working Logic / Functionality
 #### Output
 
