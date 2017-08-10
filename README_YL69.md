@@ -23,8 +23,7 @@
 ## Part II. Waggle Specific
 ### Application
 #### How does the sensor work with Photon and P I/O Cloud?
-##### (link to event page on particle.io)
-##### (explain how the data is displayed as a log -- link to log page on particle.io)
+[Documentation detailing how to setup the Particle Photon can be found here.](https://github.com/charihara/Experimental_Sensors/blob/master/Photon_Instructions.md)
 ### Source Code from particle.io
 
 ```C 
@@ -44,7 +43,7 @@ void loop() {
 
 }
 ```
-   
-### Particle Data Interface with Beehive dev
+### Particle Data Interface with Beehive dev <a name="beehive"></a>
+[Particle to Beehive dev source code](https://github.com/JordanFleming/sensor_documentation/blob/master/Particle_to_Beehive_plugin)
 ### Waggle-space ID
-### Data Structure
+[Sensor ID Table](https://github.com/JordanFleming/sensor_documentation/blob/master/Sensor_IDs.md)
