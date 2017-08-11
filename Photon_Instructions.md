@@ -5,8 +5,8 @@
 
 *	Plug in the USB cable to power on the Photon
 *	Download/open Particle app
-*	Press the mode button until the photon blinks dark blue slowly
-*	If the device has previously been connected, hold down the mode button for ~15 seconds until the led blinks dark blue rapidly
+*	Press the setup button until the photon blinks dark blue slowly
+*	If the device has previously been connected, hold down the setup button for ~15 seconds until the led blinks dark blue rapidly
 *	Follow the app’s instructions to add a new device 
 *	If the Photon is breathing cyan, it’s ready to go!
 
