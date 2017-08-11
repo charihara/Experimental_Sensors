@@ -1,4 +1,6 @@
 # *Photon Instructions* 
+## NOTE: If you have never used a particle device before, follow the instructions on this link: https://docs.particle.io/guide/getting-started/connect/electron/ to install the Particle CLI 
+
 ## Connect to the Photon
 
 *	Plug in the USB cable to power on the Photon
