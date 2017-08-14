@@ -12,7 +12,7 @@
 
 [Original Source](https://randomnerdtutorials.com/guide-for-soil-moisture-sensor-yl-69-or-hl-69-with-the-arduino/)
 ### Connection Images
-![image of YL-69 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/YL69_Connection.JPG)
+![image of YL-69 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/YL69_Connection_1.JPG)
 ### Working Logic / Functionality
 #### Output
 
