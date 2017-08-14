@@ -50,8 +50,11 @@
 
 ## Part II. Waggle Specific
 ### Application
-#### How does the sensor work with Photon and P I/O Cloud?
+#### How does my sensor work with a Particle Photon?
 [Documentation detailing how to setup the Particle Photon can be found here.](https://github.com/charihara/Experimental_Sensors/blob/master/Photon_Instructions.md)
+#### How does my sensor work with a Particle Electron?
+[Documentation detailing how to setup and read data from the Particle Electron can be found here.](https://github.com/charihara/Experimental_Sensors/blob/master/Electron_Instructions.md)
+
 ### Source Code from particle.io
 
 ```C 
