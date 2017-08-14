@@ -17,6 +17,9 @@
 *	Verify the application by pressing the check mark on the toolbar on the left side of the screen 
   *	If the code is not properly verified, fix bugs and try to verify again
   *	If the code is verified, continue
+* Select the device you want to flash to
+  * Click on the "Devices" icon in the toolbar on the left side of the screen
+  * Select the proper device by starring it
 *	Flash the application to the photon by pressing the lightning bolt on the toolbar on the left side of the screen
 *	After flashing different colors (including magenta and white), the led should return to breathing cyan 
 *	The firmware has now been successfully flashed to the Photon  
