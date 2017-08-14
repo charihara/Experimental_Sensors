@@ -12,7 +12,6 @@
 [PMS 7003 Datasheet](https://github.com/charihara/Experimental_Sensors/blob/master/Datasheets/PMS_7003_Datasheet.pdf)
 ### Connection Images
 ![image of PMS7003 pinout](https://github.com/charihara/Experimental_Sensors/blob/master/Images/PMS7003_pin_out.jpg)
-![image of PMS7003 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/Connection_Diagram_7003.JPG)
 ![image of PMS7003 connection](https://github.com/charihara/Experimental_Sensors/blob/master/Images/7003_Connection_Diagram.JPG)
 ### Working Logic / Functionality
 #### Output
