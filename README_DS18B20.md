@@ -24,6 +24,9 @@
 ### Application
 #### How does my sensor work with a Particle Photon?
 [Documentation detailing how to setup and read data from the Particle Photon can be found here.](https://github.com/charihara/Experimental_Sensors/blob/master/Photon_Instructions.md)
+#### How does my sensor work with a Particle Electron?
+[Documentation detailing how to setup and read data from the Particle Photon can be found here.](https://github.com/charihara/Experimental_Sensors/blob/master/Electron_Instructions.md)
+
 ### Source Code from particle.io
 
 ```C 
