@@ -10,7 +10,7 @@
 *	If the Photon is breathing cyan, it’s ready to go!
 
 
-## Flashing Code to the Electron (serial)
+## Flashing Code to the Electron (Serial)
 *	Go to https://build.particle.io/build/new to access Particle’s IDE
 *	Write a new application or open a pre-existing application
 *	Verify the application by pressing the check mark on the toolbar on the left side of the screen
